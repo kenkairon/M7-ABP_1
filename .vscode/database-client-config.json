@@ -1,0 +1,40 @@
+{
+    "$schema": "https://release-1256208672.cos.ap-guangzhou.myqcloud.com/dbclient/schema.json",
+    "database": {
+        "1679665206369": {
+            "key": "1679665206369",
+            "database": "usuarios",
+            "host": "127.0.0.1",
+            "port": 5432,
+            "user": "postgres",
+            "password": "1234",
+            "dbType": "PostgreSQL",
+            "useConnectionString": false,
+            "usingSSH": false,
+            "ssh": {
+                "host": "",
+                "privateKeyPath": null,
+                "port": 22,
+                "serverType": "linux",
+                "username": "root",
+                "type": "password",
+                "connectTimeout": 5000
+            },
+            "global": false,
+            "savePassword": "Forever",
+            "hideSystemSchema": true,
+            "readonly": false,
+            "sort": 11,
+            "useSSL": false,
+            "encrypt": false,
+            "authType": "default",
+            "esAuth": "none",
+            "showHidden": true,
+            "srv": false,
+            "connectionKey": "database.connections",
+            "disable": false,
+            "index": 1,
+            "name": "users"
+        }
+    }
+}
